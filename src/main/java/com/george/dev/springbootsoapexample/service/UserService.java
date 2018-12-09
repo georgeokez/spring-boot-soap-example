@@ -21,19 +21,19 @@ public class UserService {
         User user1 = new User();
         user1.setName("George");
         user1.setEmpId(001);
-        user1.setSalary(200);
+        user1.setSalary(200000.00);
         users.put(user1.getName(), user1);
 
         User user2 = new User();
         user2.setName("Tony");
         user2.setEmpId(002);
-        user2.setSalary(200);
+        user2.setSalary(200000.00);
         users.put(user2.getName(), user2);
 
         User user3 = new User();
         user3.setName("Tom");
         user3.setEmpId(003);
-        user3.setSalary(200);
+        user3.setSalary(200000.00);
         users.put(user3.getName(), user3);
     }
 
